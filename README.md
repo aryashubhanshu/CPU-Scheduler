@@ -24,6 +24,7 @@ The functions used:<br>
 Scheduler class private data members are run queue and ready queue, top (indicating the top element of ready queue), front (indicating the first element in run queue), start_exec_time (stores the time when the running process started its execution).
 <br>
 The member functions enqueue and dequeue are present.<br>
+<br>
 enqueue function: The function prints the status of the current running process ie. if it is arrived or not.<br>
 
 dequeue function: The function calculated the completion time by calling the Process class function completion and then printing in the status of process ie. Exit or Arrived and then it finally calls the response function which calculates the response time of the completed process.
